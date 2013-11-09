@@ -25,6 +25,7 @@
     BOOL practiceRoomLocked;
     BOOL practiceRoomLLocked;
     BOOL practiceRoomRLocked;
+    BOOL textFieldsLocked;
 
 }
 
@@ -61,6 +62,18 @@
     practiceRoomLocked = NO;
     practiceRoomLLocked = NO;
     practiceRoomRLocked = NO;
+    textField1.editable = YES;
+    textField2.editable = YES;
+    textField3.editable = YES;
+    textField4.editable = YES;
+    textField5.editable = YES;
+    textField6.editable = YES;
+    textField7.editable = YES;
+    textField8.editable = YES;
+    textField9.editable = YES;
+    textField10.editable = YES;
+    textField11.editable = YES;
+    textFieldsLocked = NO;
     
 }
 
@@ -257,6 +270,40 @@
 }
 -(IBAction)goToCoin:(id)sender {
     [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString: @"http://probendingmaster.com/bitcoin.html"]];
+}
+
+// Text actions
+
+-(IBAction)fieldLock:(id)sender {
+    if (!textFieldsLocked) {
+        textField1.editable = NO;
+        textField2.editable = NO;
+        textField3.editable = NO;
+        textField4.editable = NO;
+        textField5.editable = NO;
+        textField6.editable = NO;
+        textField7.editable = NO;
+        textField8.editable = NO;
+        textField9.editable = NO;
+        textField10.editable = NO;
+        textField11.editable = NO;
+        textFieldsLocked = YES;
+    }
+    else {
+        textField1.editable = YES;
+        textField2.editable = YES;
+        textField3.editable = YES;
+        textField4.editable = YES;
+        textField5.editable = YES;
+        textField6.editable = YES;
+        textField7.editable = YES;
+        textField8.editable = YES;
+        textField9.editable = YES;
+        textField10.editable = YES;
+        textField11.editable = YES;
+        textFieldsLocked = NO;
+        
+    }
 }
 
 @end

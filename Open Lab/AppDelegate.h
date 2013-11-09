@@ -43,6 +43,18 @@
     IBOutlet NSImageView *practiceunLocked;
     IBOutlet NSImageView *practiceLunLocked;
     IBOutlet NSImageView *practiceRunLocked;
+    IBOutlet NSTextField *textField1;
+    IBOutlet NSTextField *textField2;
+    IBOutlet NSTextField *textField3;
+    IBOutlet NSTextField *textField4;
+    IBOutlet NSTextField *textField5;
+    IBOutlet NSTextField *textField6;
+    IBOutlet NSTextField *textField7;
+    IBOutlet NSTextField *textField8;
+    IBOutlet NSTextField *textField9;
+    IBOutlet NSTextField *textField10;
+    IBOutlet NSTextField *textField11;
+
 }
 
 
@@ -66,12 +78,6 @@
 -(IBAction)goToGit:(id)sender;
 -(IBAction)goToJeff:(id)sender;
 -(IBAction)goToCoin:(id)sender;
-
-
-
-
-
-
-
+-(IBAction)fieldLock:(id)sender;
 
 @end

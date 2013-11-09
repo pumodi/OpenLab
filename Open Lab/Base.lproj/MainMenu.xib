@@ -39,6 +39,17 @@
                 <outlet property="studioBoothunLocked" destination="vdd-I6-bFW" id="qV6-iM-Cc3"/>
                 <outlet property="studioLocked" destination="shc-C8-bct" id="c1b-Ba-ErH"/>
                 <outlet property="studiounLocked" destination="Wqo-Xw-gfr" id="OIQ-1O-iWN"/>
+                <outlet property="textField1" destination="4kc-Cb-07M" id="hWg-2q-2Zc"/>
+                <outlet property="textField10" destination="5Ua-cq-XhV" id="qD1-tW-Bte"/>
+                <outlet property="textField11" destination="Eiy-To-29D" id="fea-ip-WTt"/>
+                <outlet property="textField2" destination="bMq-Ya-exG" id="Ulk-jK-wc9"/>
+                <outlet property="textField3" destination="qMi-dM-MiC" id="R26-bi-ssb"/>
+                <outlet property="textField4" destination="URK-Xk-nlh" id="MTV-NR-zsZ"/>
+                <outlet property="textField5" destination="eRi-AT-Eqo" id="4zI-UE-BTs"/>
+                <outlet property="textField6" destination="Yh7-lC-Jjc" id="89W-Db-uyb"/>
+                <outlet property="textField7" destination="qPU-Gf-YM3" id="ka1-GX-QcE"/>
+                <outlet property="textField8" destination="9zH-jr-nhv" id="y5N-8i-nns"/>
+                <outlet property="textField9" destination="Qsy-OC-G9l" id="JjM-zS-z6h"/>
                 <outlet property="undergrad116Locked" destination="U0L-Fc-pPa" id="Vpb-Bc-fB8"/>
                 <outlet property="undergrad116unLocked" destination="ias-Ww-DRz" id="wL9-b7-SQa"/>
                 <outlet property="unlockImage" destination="Z9M-Zl-uxY" id="kNn-3Z-UyA"/>
@@ -205,7 +216,7 @@
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4kc-Cb-07M">
                         <rect key="frame" x="124" y="409" width="207" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="66l-Am-gtv">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="66l-Am-gtv">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -214,7 +225,7 @@
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bMq-Ya-exG">
                         <rect key="frame" x="124" y="357" width="207" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="ats-lL-fqd">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="ats-lL-fqd">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -223,7 +234,7 @@
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qMi-dM-MiC">
                         <rect key="frame" x="99" y="287" width="232" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="3qs-iZ-ng9">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="3qs-iZ-ng9">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -232,7 +243,7 @@
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eiy-To-29D">
                         <rect key="frame" x="503" y="149" width="206" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="PKi-fW-G2Y">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="PKi-fW-G2Y">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -241,7 +252,7 @@
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9zH-jr-nhv">
                         <rect key="frame" x="487" y="308" width="222" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="GuS-hU-W85">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="GuS-hU-W85">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -250,7 +261,7 @@
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yh7-lC-Jjc">
                         <rect key="frame" x="531" y="491" width="178" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="2Iq-Be-LXB">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="2Iq-Be-LXB">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -259,7 +270,7 @@
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qsy-OC-G9l">
                         <rect key="frame" x="487" y="258" width="222" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="GY8-49-pyN">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="GY8-49-pyN">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -268,7 +279,7 @@
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Ua-cq-XhV">
                         <rect key="frame" x="487" y="215" width="222" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="Sof-EF-ZdJ">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="Sof-EF-ZdJ">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -277,7 +288,7 @@
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="URK-Xk-nlh">
                         <rect key="frame" x="171" y="94" width="167" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="ipw-C2-xrE">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="ipw-C2-xrE">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -286,7 +297,7 @@
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eRi-AT-Eqo">
                         <rect key="frame" x="171" y="37" width="168" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="6Dl-zZ-H5P">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="6Dl-zZ-H5P">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -389,7 +400,7 @@
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qPU-Gf-YM3">
                         <rect key="frame" x="531" y="409" width="178" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="faR-pV-rMw">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="faR-pV-rMw">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -466,7 +477,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="9oK-oT-Nld"/>
                     </imageView>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A2g-Qk-NEx">
+                    <button toolTip="Lock/Unlock room 108" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A2g-Qk-NEx">
                         <rect key="frame" x="57" y="403" width="65" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="108" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="uvb-oT-C2B">
@@ -477,7 +488,7 @@
                             <action selector="lock108:" target="494" id="8S3-0S-Qhr"/>
                         </connections>
                     </button>
-                    <button identifier="buttonMIDI" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zej-sh-bBG" userLabel="buttonMIDI">
+                    <button identifier="buttonMIDI" toolTip="Lock/Unlock the MIDI Lab" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zej-sh-bBG" userLabel="buttonMIDI">
                         <rect key="frame" x="57" y="483" width="95" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="MIDI Lab" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Ho0-Ys-G8q">
@@ -488,7 +499,7 @@
                             </connections>
                         </buttonCell>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BFY-xJ-6Ho">
+                    <button toolTip="Lock/Unlock room 116" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BFY-xJ-6Ho">
                         <rect key="frame" x="57" y="350" width="65" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="116" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="QEC-UJ-qfu">
@@ -499,7 +510,7 @@
                             <action selector="lock116:" target="494" id="uxI-O9-d63"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sSM-qK-5cU">
+                    <button toolTip="Lock/Unlock room 109" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sSM-qK-5cU">
                         <rect key="frame" x="411" y="302" width="60" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="109" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="8Tn-BI-OPT">
@@ -510,7 +521,7 @@
                             <action selector="lock109:" target="494" id="SR8-al-XYi"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9yN-rZ-n6z">
+                    <button toolTip="Lock/Unlock room 117" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9yN-rZ-n6z">
                         <rect key="frame" x="412" y="252" width="65" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="117" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Uaq-nK-8sf">
@@ -521,7 +532,7 @@
                             <action selector="lock117:" target="494" id="MVI-ao-OC5"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="laf-fp-jer">
+                    <button toolTip="Lock/Unlock room 118" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="laf-fp-jer">
                         <rect key="frame" x="411" y="209" width="65" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="118" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="qVW-TU-fbh">
@@ -532,7 +543,7 @@
                             <action selector="lock118:" target="494" id="sNd-ld-7bB"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kaf-ef-VR5">
+                    <button toolTip="Lock/Unlock the ADR Lab" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kaf-ef-VR5">
                         <rect key="frame" x="411" y="141" width="94" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="ADR Lab" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="z7J-zC-QKm">
@@ -543,7 +554,7 @@
                             <action selector="lockADR:" target="494" id="2kG-qj-xcv"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bYx-LX-dA1">
+                    <button toolTip="Lock/Unlock the Vocal Booth" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bYx-LX-dA1">
                         <rect key="frame" x="411" y="403" width="115" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Vocal Booth" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="MAM-xa-UMt">
@@ -554,7 +565,7 @@
                             <action selector="lockVocal:" target="494" id="ddO-sB-RN9"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y72-XK-sTf">
+                    <button toolTip="Lock/Unlock the Iso Booth" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y72-XK-sTf">
                         <rect key="frame" x="411" y="448" width="99" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Iso Booth" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gE7-to-8UJ">
@@ -565,7 +576,7 @@
                             <action selector="lockStudioBooth:" target="494" id="0gg-Dq-JBB"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tej-iy-Ckc">
+                    <button toolTip="Lock/Unlock the Studio" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tej-iy-Ckc">
                         <rect key="frame" x="411" y="485" width="118" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Studio (712)" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="toH-7I-vig">
@@ -576,7 +587,7 @@
                             <action selector="lockStudio:" target="494" id="CND-eh-hya"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lA7-ME-U8G">
+                    <button toolTip="Lock/Unlock the Foley Live Room" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lA7-ME-U8G">
                         <rect key="frame" x="57" y="207" width="105" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Live Room" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="b9f-HU-IvA">
@@ -587,7 +598,7 @@
                             <action selector="lockFoleyLive:" target="494" id="72O-4h-Jq1"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dNo-Oy-a1H">
+                    <button toolTip="Lock/Unlock the Foley Control Room" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dNo-Oy-a1H">
                         <rect key="frame" x="57" y="249" width="128" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Control Room" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5Ms-0s-b28">
@@ -598,7 +609,7 @@
                             <action selector="lockFoleyCTRL:" target="494" id="kdK-aj-ayS"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wyN-gu-l6Z">
+                    <button toolTip="Lock/Unlock the Practice Rooms" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wyN-gu-l6Z">
                         <rect key="frame" x="57" y="141" width="136" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Practice Rooms" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="HJe-pc-XjV">
@@ -609,7 +620,7 @@
                             <action selector="lockPractice:" target="494" id="E3y-2A-Wg3"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ooI-25-F2M">
+                    <button toolTip="Lock/Unlock the Right Piano Room" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ooI-25-F2M">
                         <rect key="frame" x="57" y="30" width="112" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Right Piano" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="vC0-Lx-3XC">
@@ -620,7 +631,7 @@
                             <action selector="lockPracticeR:" target="494" id="Eqd-QC-ifO"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B0G-ZP-h9p">
+                    <button toolTip="Lock/Unlock the Left Piano Room" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B0G-ZP-h9p">
                         <rect key="frame" x="57" y="88" width="102" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Left Piano" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="fFV-2A-gtz">
@@ -640,18 +651,38 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
+                    <button toolTip="Toggle on to prevent editing of Name Entry fields" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f3G-mN-CUg">
+                        <rect key="frame" x="649" y="33" width="64" height="64"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="pencil2" imagePosition="only" alignment="center" alternateImage="forbid" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="LMc-e3-Be9">
+                            <behavior key="behavior" pushIn="YES" changeContents="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system" size="10"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="fieldLock:" target="494" id="bff-M0-6CM"/>
+                        </connections>
+                    </button>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AHF-DU-C3u">
+                        <rect key="frame" x="624" y="98" width="114" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Lock Name Fields" id="FN5-sG-rAO">
+                            <font key="font" metaFont="label"/>
+                            <color key="textColor" red="0.0" green="0.70121433423913038" blue="0.0041852615499960513" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
                 </subviews>
             </view>
             <toolbar key="toolbar" implicitIdentifier="53AE1111-C12E-41F6-B7C3-E584A4ED9F1C" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="bk5-Ua-S3f">
                 <allowedToolbarItems>
-                    <toolbarItem implicitItemIdentifier="509876C5-C25D-4E4F-80EE-7B11D3EDF8DE" explicitItemIdentifier="toolbarLabs" label="Labs" paletteLabel="Labs" tag="-1" image="test" id="eCO-p6-Lm6"/>
-                    <toolbarItem implicitItemIdentifier="1C76268A-D6CF-446B-A46C-1CD46F0CBAC8" explicitItemIdentifier="toolbarHeartbeat" label="Heartbeat Server" paletteLabel="Heartbeat Server" tag="-1" image="heart" id="xpG-3m-kkb"/>
-                    <toolbarItem implicitItemIdentifier="9179F4A3-57F9-4580-9E7F-F0106DC9A175" explicitItemIdentifier="toolbarInfo" label="About" paletteLabel="About" tag="-1" image="info" id="pbQ-zR-g2L">
+                    <toolbarItem implicitItemIdentifier="509876C5-C25D-4E4F-80EE-7B11D3EDF8DE" explicitItemIdentifier="toolbarLabs" label="Labs" paletteLabel="Labs" toolTip="Show the Laboratory List" tag="-1" image="test" id="eCO-p6-Lm6"/>
+                    <toolbarItem implicitItemIdentifier="1C76268A-D6CF-446B-A46C-1CD46F0CBAC8" explicitItemIdentifier="toolbarHeartbeat" label="Heartbeat Server" paletteLabel="Heartbeat Server" toolTip="Open the &quot;Heartbeat&quot; server control panel" tag="-1" image="heart" id="xpG-3m-kkb"/>
+                    <toolbarItem implicitItemIdentifier="9179F4A3-57F9-4580-9E7F-F0106DC9A175" explicitItemIdentifier="toolbarInfo" label="About" paletteLabel="About" toolTip="Show 'Open Lab' Developer Info" tag="-1" image="info" id="pbQ-zR-g2L">
                         <connections>
                             <action selector="makeKeyAndOrderFront:" target="yz5-WT-AVr" id="t5X-ZE-CD3"/>
                         </connections>
                     </toolbarItem>
-                    <toolbarItem implicitItemIdentifier="2476180E-9B03-4734-8D49-38AEB0D7942D" explicitItemIdentifier="toolbarClients" label="Clients" paletteLabel="Clients" tag="-1" image="person" id="8mr-Za-XBh"/>
+                    <toolbarItem implicitItemIdentifier="2476180E-9B03-4734-8D49-38AEB0D7942D" explicitItemIdentifier="toolbarClients" label="Clients" paletteLabel="Clients" toolTip="Show the Clients List" tag="-1" image="person" id="8mr-Za-XBh"/>
                     <toolbarItem implicitItemIdentifier="NSToolbarSeparatorItem" id="bon-iD-vqZ"/>
                     <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="JsL-n1-xNV"/>
                 </allowedToolbarItems>
@@ -668,10 +699,12 @@
     </objects>
     <resources>
         <image name="bitcoin" width="128" height="128"/>
+        <image name="forbid" width="32" height="32"/>
         <image name="heart" width="117.36000061035156" height="99.839996337890625"/>
         <image name="info" width="32" height="32"/>
         <image name="lock" width="32" height="32"/>
         <image name="paypal" width="128" height="128"/>
+        <image name="pencil2" width="32" height="32"/>
         <image name="person" width="32" height="32"/>
         <image name="shop" width="128" height="128"/>
         <image name="test" width="32" height="32"/>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41303339182E8D28002BF4E2 /* forbid.png in Resources */ = {isa = PBXBuildFile; fileRef = 41303338182E8D28002BF4E2 /* forbid.png */; };
+		4130333B182E8D51002BF4E2 /* pencil2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4130333A182E8D51002BF4E2 /* pencil2.png */; };
 		416F375A182A16910037FBBA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416F3759182A16910037FBBA /* Cocoa.framework */; };
 		416F3764182A16910037FBBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 416F3762182A16910037FBBA /* InfoPlist.strings */; };
 		416F3766182A16910037FBBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 416F3765182A16910037FBBA /* main.m */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41303338182E8D28002BF4E2 /* forbid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forbid.png; sourceTree = "<group>"; };
+		4130333A182E8D51002BF4E2 /* pencil2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil2.png; sourceTree = "<group>"; };
 		416F3756182A16910037FBBA /* Open Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		416F3759182A16910037FBBA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		416F375C182A16910037FBBA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -148,6 +152,8 @@
 		416F3760182A16910037FBBA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4130333A182E8D51002BF4E2 /* pencil2.png */,
+				41303338182E8D28002BF4E2 /* forbid.png */,
 				41FE8386182E613F0000885D /* unlock.png */,
 				41FE8382182E5E2C0000885D /* shop.png */,
 				41FE837E182E5DBC0000885D /* bitcoin.png */,
@@ -269,10 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				41FE8379182E07350000885D /* heart.png in Resources */,
+				4130333B182E8D51002BF4E2 /* pencil2.png in Resources */,
 				416F3764182A16910037FBBA /* InfoPlist.strings in Resources */,
 				416F3772182A16910037FBBA /* Images.xcassets in Resources */,
 				41FE8377182E05DA0000885D /* test.png in Resources */,
 				41FE8387182E613F0000885D /* unlock.png in Resources */,
+				41303339182E8D28002BF4E2 /* forbid.png in Resources */,
 				41FE8383182E5E2C0000885D /* shop.png in Resources */,
 				416F376A182A16910037FBBA /* Credits.rtf in Resources */,
 				41FE8380182E5DBC0000885D /* bitcoin.png in Resources */,
