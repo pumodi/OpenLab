@@ -61,8 +61,8 @@
         <customObject id="420" customClass="NSFontManager"/>
         <menu id="mBI-2H-7aH">
             <items>
-                <menuItem title="Show" id="PkG-oc-XzR">
-                    <modifierMask key="keyEquivalentModifierMask"/>
+                <menuItem title="Show" keyEquivalent="S" id="PkG-oc-XzR">
+                    <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
                     <connections>
                         <action selector="makeKeyAndOrderFront:" target="371" id="qAp-ga-K5a"/>
                     </connections>
@@ -73,10 +73,9 @@
                         <action selector="makeKeyAndOrderFront:" target="yz5-WT-AVr" id="w6t-SC-Ohe"/>
                     </connections>
                 </menuItem>
-                <menuItem title="Quit" id="ykU-98-esp">
-                    <modifierMask key="keyEquivalentModifierMask"/>
+                <menuItem title="Quit" keyEquivalent="q" id="ykU-98-esp">
                     <connections>
-                        <action selector="stop:" target="-3" id="VR7-CE-7Wk"/>
+                        <action selector="terminate:" target="-3" id="Xte-pb-9Lb"/>
                     </connections>
                 </menuItem>
             </items>
