@@ -3,13 +3,13 @@
     {
       "size" : "16x16",
       "idiom" : "mac",
-      "filename" : "person.png",
+      "filename" : "person-1-1-2-1.png",
       "scale" : "1x"
     },
     {
       "size" : "16x16",
       "idiom" : "mac",
-      "filename" : "person-1.png",
+      "filename" : "person-1-1-2.png",
       "scale" : "2x"
     },
     {
@@ -27,37 +27,37 @@
     {
       "size" : "128x128",
       "idiom" : "mac",
-      "filename" : "person-1-1-1-1.png",
+      "filename" : "person-1-1-2-2.png",
       "scale" : "1x"
     },
     {
       "size" : "128x128",
       "idiom" : "mac",
-      "filename" : "person-1-1-1-1-1.png",
+      "filename" : "person-1-1-1-1.png",
       "scale" : "2x"
+    },
+    {
+      "size" : "256x256",
+      "idiom" : "mac",
+      "filename" : "person-1-1-1-1-1.png",
+      "scale" : "1x"
     },
     {
       "size" : "256x256",
       "idiom" : "mac",
       "filename" : "person-1-1-1-1-1-1.png",
-      "scale" : "1x"
-    },
-    {
-      "size" : "256x256",
-      "idiom" : "mac",
-      "filename" : "person-1-1-1-1-1-1-1.png",
       "scale" : "2x"
     },
     {
       "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "person-1-1-1-1-1-1-1-1.png",
+      "filename" : "person-1-1-1-1-1-1-1.png",
       "scale" : "1x"
     },
     {
       "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "person-1-1-1-1-1-1-1-1-1.png",
+      "filename" : "person-1-1-1-1-1-1-1-1.png",
       "scale" : "2x"
     }
   ],

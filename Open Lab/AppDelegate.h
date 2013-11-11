@@ -79,5 +79,6 @@
 -(IBAction)goToJeff:(id)sender;
 -(IBAction)goToCoin:(id)sender;
 -(IBAction)fieldLock:(id)sender;
+-(IBAction)refreshHeartbeat:(id)sender;
 
 @end

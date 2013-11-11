@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <deployment defaultVersion="1070" identifier="macosx"/>
+        <deployment defaultVersion="1080" identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4514"/>
     </dependencies>
     <objects>
@@ -14,48 +14,37 @@
         <customObject id="-3" userLabel="Application"/>
         <customObject id="494" customClass="AppDelegate">
             <connections>
-                <outlet property="ADRLocked" destination="4ZD-c4-wEi" id="3pw-MC-i7W"/>
-                <outlet property="ADRunLocked" destination="CUq-NA-rfd" id="9FG-T5-kcg"/>
-                <outlet property="foleyCTRLLocked" destination="E9r-cs-khL" id="yVk-8m-9RG"/>
-                <outlet property="foleyCTRLunLocked" destination="XjI-ji-1zF" id="a4g-EE-aad"/>
-                <outlet property="foleyLiveLocked" destination="yRe-eV-g0k" id="0Kf-dg-HJr"/>
-                <outlet property="foleyLiveunLocked" destination="VQT-UX-7XO" id="7fp-HR-VFR"/>
-                <outlet property="grad109Locked" destination="HQg-bA-UcS" id="DHF-g5-FBY"/>
-                <outlet property="grad109unLocked" destination="Vps-k3-WiD" id="buA-kh-5xY"/>
-                <outlet property="grad117Locked" destination="wZZ-qz-cFP" id="b2w-Ki-it8"/>
-                <outlet property="grad117unLocked" destination="c0W-1K-ZyV" id="kvS-Iq-Oyz"/>
-                <outlet property="grad118Locked" destination="ovr-M7-Mmf" id="6TJ-l2-Uje"/>
-                <outlet property="grad118unLocked" destination="DwP-q1-CUc" id="32i-gD-iin"/>
-                <outlet property="lockImage" destination="g4H-uv-3BF" id="PL2-dG-U2V"/>
-                <outlet property="lockImage108" destination="ssI-T2-yhY" id="q4I-wo-2fd"/>
-                <outlet property="practiceLLocked" destination="LbU-oN-QiL" id="WlF-2u-bkz"/>
-                <outlet property="practiceLocked" destination="E7X-i8-fEH" id="EZA-NU-RpS"/>
-                <outlet property="practiceLunLocked" destination="zv9-go-JCj" id="bF4-QJ-wDw"/>
-                <outlet property="practiceRLocked" destination="yTF-NK-6SB" id="qeR-vO-7Mm"/>
-                <outlet property="practiceRunLocked" destination="yMW-Y6-xKe" id="ztj-1b-2pE"/>
-                <outlet property="practiceunLocked" destination="VSf-Yr-kCi" id="jlG-oi-pB1"/>
+                <outlet property="ADRLocked" destination="btD-0d-bxa" id="Bwq-Lu-ClW"/>
+                <outlet property="ADRunLocked" destination="BWa-Xa-F0e" id="xTi-ug-jpD"/>
+                <outlet property="foleyCTRLLocked" destination="QJp-XG-vMk" id="bQu-nF-Z76"/>
+                <outlet property="foleyCTRLunLocked" destination="gku-Bd-fcC" id="T2X-gd-RCe"/>
+                <outlet property="foleyLiveLocked" destination="n48-Y4-AIU" id="T3W-Np-qkC"/>
+                <outlet property="foleyLiveunLocked" destination="pcJ-cX-cwk" id="kgZ-Eg-4WP"/>
+                <outlet property="grad109Locked" destination="1dz-Vf-Qju" id="X4Q-82-Ob6"/>
+                <outlet property="grad109unLocked" destination="RfN-fc-iee" id="5EP-s5-ZsK"/>
+                <outlet property="grad117Locked" destination="LR2-Dv-6zA" id="M0U-SL-ccY"/>
+                <outlet property="grad117unLocked" destination="rjm-tP-si7" id="5WG-1U-J5C"/>
+                <outlet property="grad118Locked" destination="Q6I-HQ-qgG" id="cLK-3a-3MI"/>
+                <outlet property="grad118unLocked" destination="2l0-NV-2iq" id="dDV-KE-6VO"/>
+                <outlet property="lockImage" destination="weE-C0-HLq" id="oGd-7C-eb5"/>
+                <outlet property="lockImage108" destination="taQ-kg-W5D" id="kPC-vM-ByN"/>
+                <outlet property="practiceLLocked" destination="tpG-JA-kaQ" id="lWa-5e-J0m"/>
+                <outlet property="practiceLocked" destination="hRX-8v-9Om" id="iqR-KU-lpJ"/>
+                <outlet property="practiceLunLocked" destination="IvJ-gw-uMm" id="fRc-aa-aes"/>
+                <outlet property="practiceRLocked" destination="sIk-MU-cxU" id="1Oi-fa-EVk"/>
+                <outlet property="practiceRunLocked" destination="wf4-4V-L1l" id="kzE-KO-LJz"/>
+                <outlet property="practiceunLocked" destination="HBE-du-Z0e" id="TaT-yy-KbQ"/>
                 <outlet property="statusMenu" destination="mBI-2H-7aH" id="PPt-xf-AkU"/>
-                <outlet property="studioBoothLocked" destination="rOI-Y8-V43" id="q2G-EN-NrI"/>
-                <outlet property="studioBoothunLocked" destination="vdd-I6-bFW" id="qV6-iM-Cc3"/>
-                <outlet property="studioLocked" destination="shc-C8-bct" id="c1b-Ba-ErH"/>
-                <outlet property="studiounLocked" destination="Wqo-Xw-gfr" id="OIQ-1O-iWN"/>
-                <outlet property="textField1" destination="4kc-Cb-07M" id="hWg-2q-2Zc"/>
-                <outlet property="textField10" destination="5Ua-cq-XhV" id="qD1-tW-Bte"/>
-                <outlet property="textField11" destination="Eiy-To-29D" id="fea-ip-WTt"/>
-                <outlet property="textField2" destination="bMq-Ya-exG" id="Ulk-jK-wc9"/>
-                <outlet property="textField3" destination="qMi-dM-MiC" id="R26-bi-ssb"/>
-                <outlet property="textField4" destination="URK-Xk-nlh" id="MTV-NR-zsZ"/>
-                <outlet property="textField5" destination="eRi-AT-Eqo" id="4zI-UE-BTs"/>
-                <outlet property="textField6" destination="Yh7-lC-Jjc" id="89W-Db-uyb"/>
-                <outlet property="textField7" destination="qPU-Gf-YM3" id="ka1-GX-QcE"/>
-                <outlet property="textField8" destination="9zH-jr-nhv" id="y5N-8i-nns"/>
-                <outlet property="textField9" destination="Qsy-OC-G9l" id="JjM-zS-z6h"/>
-                <outlet property="undergrad116Locked" destination="U0L-Fc-pPa" id="Vpb-Bc-fB8"/>
-                <outlet property="undergrad116unLocked" destination="ias-Ww-DRz" id="wL9-b7-SQa"/>
-                <outlet property="unlockImage" destination="Z9M-Zl-uxY" id="kNn-3Z-UyA"/>
-                <outlet property="unlockImage108" destination="uVF-uu-YWl" id="tct-sS-ZM9"/>
-                <outlet property="vocalLocked" destination="NRq-MX-not" id="j7U-Iy-hZ1"/>
-                <outlet property="vocalunLocked" destination="Fu4-CR-8CP" id="tQh-X1-DvW"/>
+                <outlet property="studioBoothLocked" destination="fM6-Ks-SIR" id="LV2-UV-LRa"/>
+                <outlet property="studioBoothunLocked" destination="Ihk-jQ-RER" id="sAI-KE-jYR"/>
+                <outlet property="studioLocked" destination="tUz-5O-jc1" id="EPe-v0-Tv3"/>
+                <outlet property="studiounLocked" destination="es5-Te-qiS" id="amg-Pn-22i"/>
+                <outlet property="undergrad116Locked" destination="S9e-Xi-QN2" id="6Em-wp-U42"/>
+                <outlet property="undergrad116unLocked" destination="JoK-d2-Fzd" id="Ger-f5-AbP"/>
+                <outlet property="unlockImage" destination="TQN-bL-IA5" id="vDd-Px-Voz"/>
+                <outlet property="unlockImage108" destination="iWs-a5-rLu" id="H44-eR-XOd"/>
+                <outlet property="vocalLocked" destination="cmD-oa-SIs" id="BXU-6r-WRF"/>
+                <outlet property="vocalunLocked" destination="AKa-03-YQr" id="zwZ-7o-TUb"/>
             </connections>
         </customObject>
         <customObject id="420" customClass="NSFontManager"/>
@@ -179,528 +168,944 @@
         <window identifier="windowOpenLab" title="Open Lab" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="371">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="602" y="241" width="731" height="538"/>
+            <rect key="contentRect" x="602" y="241" width="784" height="567"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1058"/>
             <view key="contentView" identifier="viewLabs" id="372">
-                <rect key="frame" x="0.0" y="0.0" width="731" height="538"/>
+                <rect key="frame" x="0.0" y="0.0" width="784" height="567"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rJk-JD-fBW">
-                        <rect key="frame" x="24" y="449" width="131" height="17"/>
+                    <tabView fixedFrame="YES" initialItem="IWW-SL-Wlw" translatesAutoresizingMaskIntoConstraints="NO" id="7TF-ah-aus">
+                        <rect key="frame" x="19" y="8" width="746" height="565"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Undergraduate Labs" id="QAD-eH-dlZ">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8bg-4F-8mK">
-                        <rect key="frame" x="379" y="346" width="94" height="17"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Graduate Labs" id="PeA-Gj-nbB">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="941-2w-dRE">
-                        <rect key="frame" x="24" y="290" width="63" height="17"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Foley Lab" id="2ec-mY-zdZ">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4kc-Cb-07M">
-                        <rect key="frame" x="124" y="409" width="207" height="22"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="66l-Am-gtv">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bMq-Ya-exG">
-                        <rect key="frame" x="124" y="357" width="207" height="22"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="ats-lL-fqd">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qMi-dM-MiC">
-                        <rect key="frame" x="99" y="287" width="232" height="22"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="3qs-iZ-ng9">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eiy-To-29D">
-                        <rect key="frame" x="503" y="149" width="206" height="22"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="PKi-fW-G2Y">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9zH-jr-nhv">
-                        <rect key="frame" x="487" y="308" width="222" height="22"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="GuS-hU-W85">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yh7-lC-Jjc">
-                        <rect key="frame" x="531" y="491" width="178" height="22"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="2Iq-Be-LXB">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qsy-OC-G9l">
-                        <rect key="frame" x="487" y="258" width="222" height="22"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="GY8-49-pyN">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Ua-cq-XhV">
-                        <rect key="frame" x="487" y="215" width="222" height="22"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="Sof-EF-ZdJ">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="URK-Xk-nlh">
-                        <rect key="frame" x="171" y="94" width="167" height="22"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="ipw-C2-xrE">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eRi-AT-Eqo">
-                        <rect key="frame" x="171" y="37" width="168" height="22"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="6Dl-zZ-H5P">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="shc-C8-bct" userLabel="imageLock712">
-                        <rect key="frame" x="375" y="481" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="hWK-VB-Tfj"/>
-                        <accessibility description="imageLock" help="imageLock"/>
-                    </imageView>
-                    <imageView identifier="imageUnlock712" hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wqo-Xw-gfr" userLabel="imageUnlock712">
-                        <rect key="frame" x="367" y="481" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="hBE-1x-ePg"/>
-                    </imageView>
-                    <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HQg-bA-UcS" userLabel="imageLock">
-                        <rect key="frame" x="375" y="296" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="SQM-qe-0QW"/>
-                        <accessibility description="imageLock" help="imageLock"/>
-                    </imageView>
-                    <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4ZD-c4-wEi" userLabel="imageLock">
-                        <rect key="frame" x="375" y="139" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="9Ia-4e-wby"/>
-                        <accessibility description="imageLock" help="imageLock"/>
-                    </imageView>
-                    <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CUq-NA-rfd" userLabel="imageUnlock">
-                        <rect key="frame" x="367" y="139" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="eTN-a9-f4q"/>
-                    </imageView>
-                    <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wZZ-qz-cFP" userLabel="imageLock">
-                        <rect key="frame" x="375" y="246" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="tg5-x7-Hcm"/>
-                        <accessibility description="imageLock" help="imageLock"/>
-                    </imageView>
-                    <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ovr-M7-Mmf" userLabel="imageLock">
-                        <rect key="frame" x="375" y="203" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="g1H-cW-7fG"/>
-                        <accessibility description="imageLock" help="imageLock"/>
-                    </imageView>
-                    <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ssI-T2-yhY" userLabel="imageLock">
-                        <rect key="frame" x="20" y="399" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="fma-xW-MwU"/>
-                        <accessibility description="imageLock" help="imageLock"/>
-                    </imageView>
-                    <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U0L-Fc-pPa" userLabel="imageLock">
-                        <rect key="frame" x="20" y="347" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="iVb-oS-3J7"/>
-                        <accessibility description="imageLock" help="imageLock"/>
-                    </imageView>
-                    <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g4H-uv-3BF" userLabel="imageLock">
-                        <rect key="frame" x="20" y="481" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="Prz-oq-euU"/>
-                        <accessibility description="imageLock" help="imageLock"/>
-                    </imageView>
-                    <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E9r-cs-khL" userLabel="imageLock">
-                        <rect key="frame" x="20" y="246" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="C6h-U1-aHK"/>
-                        <accessibility description="imageLock" help="imageLock"/>
-                    </imageView>
-                    <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yRe-eV-g0k" userLabel="imageLock">
-                        <rect key="frame" x="20" y="203" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="2eO-wC-YgY"/>
-                        <accessibility description="imageLock" help="imageLock"/>
-                    </imageView>
-                    <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E7X-i8-fEH" userLabel="imageLock">
-                        <rect key="frame" x="20" y="139" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="4fE-4h-4yv"/>
-                        <accessibility description="imageLock" help="imageLock"/>
-                    </imageView>
-                    <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LbU-oN-QiL" userLabel="imageLock">
-                        <rect key="frame" x="20" y="84" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="We7-Sc-Rfg"/>
-                        <accessibility description="imageLock" help="imageLock"/>
-                    </imageView>
-                    <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yTF-NK-6SB" userLabel="imageLock">
-                        <rect key="frame" x="20" y="26" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="6mD-so-sY4"/>
-                        <accessibility description="imageLock" help="imageLock"/>
-                    </imageView>
-                    <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rOI-Y8-V43" userLabel="imageLock">
-                        <rect key="frame" x="375" y="444" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="NnU-IY-Qar"/>
-                        <accessibility description="imageLock" help="imageLock"/>
-                    </imageView>
-                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qPU-Gf-YM3">
-                        <rect key="frame" x="531" y="409" width="178" height="22"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="faR-pV-rMw">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NRq-MX-not" userLabel="imageLock">
-                        <rect key="frame" x="375" y="399" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="njK-76-uyO"/>
-                        <accessibility description="imageLock" help="imageLock"/>
-                    </imageView>
-                    <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DwP-q1-CUc" userLabel="imageUnlock">
-                        <rect key="frame" x="367" y="203" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="xzz-Cq-uiO"/>
-                    </imageView>
-                    <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c0W-1K-ZyV" userLabel="imageUnlock">
-                        <rect key="frame" x="367" y="246" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="6At-fu-LPA"/>
-                    </imageView>
-                    <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vps-k3-WiD" userLabel="imageUnlock">
-                        <rect key="frame" x="367" y="294" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="Xlv-CA-LTU"/>
-                    </imageView>
-                    <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fu4-CR-8CP" userLabel="imageUnlock">
-                        <rect key="frame" x="367" y="399" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="LJM-qv-pgr"/>
-                    </imageView>
-                    <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vdd-I6-bFW" userLabel="imageUnlock">
-                        <rect key="frame" x="367" y="444" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="lRZ-qO-rE3"/>
-                    </imageView>
-                    <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z9M-Zl-uxY" userLabel="imageUnlock">
-                        <rect key="frame" x="12" y="481" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="lm1-Aw-omW"/>
-                    </imageView>
-                    <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uVF-uu-YWl" userLabel="imageUnlock">
-                        <rect key="frame" x="12" y="399" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="iDz-hz-rgT"/>
-                    </imageView>
-                    <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ias-Ww-DRz" userLabel="imageUnlock">
-                        <rect key="frame" x="12" y="349" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="hZO-yz-YBw"/>
-                    </imageView>
-                    <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XjI-ji-1zF" userLabel="imageUnlock">
-                        <rect key="frame" x="12" y="245" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="sO5-on-wwt"/>
-                    </imageView>
-                    <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VQT-UX-7XO" userLabel="imageUnlock">
-                        <rect key="frame" x="12" y="203" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="Ugc-uH-e6J"/>
-                    </imageView>
-                    <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VSf-Yr-kCi" userLabel="imageUnlock">
-                        <rect key="frame" x="12" y="139" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="bdi-V7-6nZ"/>
-                    </imageView>
-                    <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zv9-go-JCj" userLabel="imageUnlock">
-                        <rect key="frame" x="12" y="84" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="H5j-Oe-ZdN"/>
-                    </imageView>
-                    <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yMW-Y6-xKe" userLabel="imageUnlock">
-                        <rect key="frame" x="12" y="26" width="42" height="42"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="9oK-oT-Nld"/>
-                    </imageView>
-                    <button toolTip="Lock/Unlock room 108" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A2g-Qk-NEx">
-                        <rect key="frame" x="57" y="403" width="65" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="108" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="uvb-oT-C2B">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="lock108:" target="494" id="8S3-0S-Qhr"/>
-                        </connections>
-                    </button>
-                    <button identifier="buttonMIDI" toolTip="Lock/Unlock the MIDI Lab" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zej-sh-bBG" userLabel="buttonMIDI">
-                        <rect key="frame" x="57" y="483" width="95" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="MIDI Lab" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Ho0-Ys-G8q">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                            <connections>
-                                <action selector="lockMIDI:" target="494" id="YCj-qP-bbV"/>
-                            </connections>
-                        </buttonCell>
-                    </button>
-                    <button toolTip="Lock/Unlock room 116" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BFY-xJ-6Ho">
-                        <rect key="frame" x="57" y="350" width="65" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="116" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="QEC-UJ-qfu">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="lock116:" target="494" id="uxI-O9-d63"/>
-                        </connections>
-                    </button>
-                    <button toolTip="Lock/Unlock room 109" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sSM-qK-5cU">
-                        <rect key="frame" x="411" y="302" width="60" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="109" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="8Tn-BI-OPT">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="lock109:" target="494" id="SR8-al-XYi"/>
-                        </connections>
-                    </button>
-                    <button toolTip="Lock/Unlock room 117" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9yN-rZ-n6z">
-                        <rect key="frame" x="412" y="252" width="65" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="117" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Uaq-nK-8sf">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="lock117:" target="494" id="MVI-ao-OC5"/>
-                        </connections>
-                    </button>
-                    <button toolTip="Lock/Unlock room 118" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="laf-fp-jer">
-                        <rect key="frame" x="411" y="209" width="65" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="118" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="qVW-TU-fbh">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="lock118:" target="494" id="sNd-ld-7bB"/>
-                        </connections>
-                    </button>
-                    <button toolTip="Lock/Unlock the ADR Lab" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kaf-ef-VR5">
-                        <rect key="frame" x="411" y="141" width="94" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="ADR Lab" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="z7J-zC-QKm">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="lockADR:" target="494" id="2kG-qj-xcv"/>
-                        </connections>
-                    </button>
-                    <button toolTip="Lock/Unlock the Vocal Booth" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bYx-LX-dA1">
-                        <rect key="frame" x="411" y="403" width="115" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Vocal Booth" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="MAM-xa-UMt">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="lockVocal:" target="494" id="ddO-sB-RN9"/>
-                        </connections>
-                    </button>
-                    <button toolTip="Lock/Unlock the Iso Booth" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y72-XK-sTf">
-                        <rect key="frame" x="411" y="448" width="99" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Iso Booth" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gE7-to-8UJ">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="lockStudioBooth:" target="494" id="0gg-Dq-JBB"/>
-                        </connections>
-                    </button>
-                    <button toolTip="Lock/Unlock the Studio" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tej-iy-Ckc">
-                        <rect key="frame" x="411" y="485" width="118" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Studio (712)" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="toH-7I-vig">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="lockStudio:" target="494" id="CND-eh-hya"/>
-                        </connections>
-                    </button>
-                    <button toolTip="Lock/Unlock the Foley Live Room" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lA7-ME-U8G">
-                        <rect key="frame" x="57" y="207" width="105" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Live Room" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="b9f-HU-IvA">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="lockFoleyLive:" target="494" id="72O-4h-Jq1"/>
-                        </connections>
-                    </button>
-                    <button toolTip="Lock/Unlock the Foley Control Room" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dNo-Oy-a1H">
-                        <rect key="frame" x="57" y="249" width="128" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Control Room" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5Ms-0s-b28">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="lockFoleyCTRL:" target="494" id="kdK-aj-ayS"/>
-                        </connections>
-                    </button>
-                    <button toolTip="Lock/Unlock the Practice Rooms" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wyN-gu-l6Z">
-                        <rect key="frame" x="57" y="141" width="136" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Practice Rooms" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="HJe-pc-XjV">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="lockPractice:" target="494" id="E3y-2A-Wg3"/>
-                        </connections>
-                    </button>
-                    <button toolTip="Lock/Unlock the Right Piano Room" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ooI-25-F2M">
-                        <rect key="frame" x="57" y="30" width="112" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Right Piano" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="vC0-Lx-3XC">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="lockPracticeR:" target="494" id="Eqd-QC-ifO"/>
-                        </connections>
-                    </button>
-                    <button toolTip="Lock/Unlock the Left Piano Room" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B0G-ZP-h9p">
-                        <rect key="frame" x="57" y="88" width="102" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Left Piano" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="fFV-2A-gtz">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="lockPracticeL:" target="494" id="tm9-Pe-14i"/>
-                        </connections>
-                    </button>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YvC-kx-c6I">
-                        <rect key="frame" x="501" y="11" width="252" height="17"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Click Lab name to toggle Locked Status" id="7oZ-pY-9QM">
-                            <font key="font" metaFont="smallSystem"/>
-                            <color key="textColor" red="0.0" green="0.61839758831521741" blue="0.0036909622673277323" alpha="1" colorSpace="calibratedRGB"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <button toolTip="Toggle on to prevent editing of Name Entry fields" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f3G-mN-CUg">
-                        <rect key="frame" x="649" y="33" width="64" height="64"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="pencil2" imagePosition="only" alignment="center" alternateImage="forbid" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="LMc-e3-Be9">
-                            <behavior key="behavior" pushIn="YES" changeContents="YES" lightByContents="YES"/>
-                            <font key="font" metaFont="system" size="10"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="fieldLock:" target="494" id="bff-M0-6CM"/>
-                        </connections>
-                    </button>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AHF-DU-C3u">
-                        <rect key="frame" x="624" y="98" width="114" height="17"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Lock Name Fields" id="FN5-sG-rAO">
-                            <font key="font" metaFont="label"/>
-                            <color key="textColor" red="0.0" green="0.70121433423913038" blue="0.0041852615499960513" alpha="1" colorSpace="calibratedRGB"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
+                        <font key="font" metaFont="system"/>
+                        <tabViewItems>
+                            <tabViewItem label="Labs" identifier="1" id="IWW-SL-Wlw">
+                                <view key="view" id="s82-wi-soQ" userLabel="Labs">
+                                    <rect key="frame" x="10" y="33" width="726" height="519"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qf5-qP-7Iq" userLabel="imageLock712">
+                                            <rect key="frame" x="8" y="428" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="g9e-6v-hJf"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L5s-vf-JTi" userLabel="imageUnlock">
+                                            <rect key="frame" x="2" y="429" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="y74-Vl-TRG"/>
+                                        </imageView>
+                                        <button toolTip="Lock/Unlock room 108" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aqs-JT-260">
+                                            <rect key="frame" x="416" y="354" width="65" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="push" title="108" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="3q4-uZ-3ys">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="lock108:" target="494" id="sA6-Sp-WQ6"/>
+                                            </connections>
+                                        </button>
+                                        <button identifier="buttonMIDI" toolTip="Lock/Unlock the MIDI Lab" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XDx-OS-BHd" userLabel="buttonMIDI">
+                                            <rect key="frame" x="416" y="420" width="95" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="push" title="MIDI Lab" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Hdn-dQ-Xe8">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                                <connections>
+                                                    <action selector="lockMIDI:" target="494" id="SIF-Z9-vMm"/>
+                                                </connections>
+                                            </buttonCell>
+                                        </button>
+                                        <button toolTip="Lock/Unlock room 116" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oUw-vI-TVs">
+                                            <rect key="frame" x="416" y="321" width="65" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="push" title="116" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="IJq-Ws-IjL">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="lock116:" target="494" id="1NR-vD-FIP"/>
+                                            </connections>
+                                        </button>
+                                        <button toolTip="Lock/Unlock room 109" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GV2-MH-AVy">
+                                            <rect key="frame" x="416" y="248" width="60" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="push" title="109" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="FM7-gH-RRv">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="lock109:" target="494" id="xYl-yd-QQ6"/>
+                                            </connections>
+                                        </button>
+                                        <button toolTip="Lock/Unlock room 117" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t6W-jT-7sk">
+                                            <rect key="frame" x="416" y="208" width="65" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="push" title="117" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5wJ-yB-1kZ">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="lock117:" target="494" id="u0p-TI-rVt"/>
+                                            </connections>
+                                        </button>
+                                        <button toolTip="Lock/Unlock room 118" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n38-Uh-HIL">
+                                            <rect key="frame" x="416" y="169" width="65" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="push" title="118" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="2VO-uc-9tC">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="lock118:" target="494" id="4yL-sv-iMh"/>
+                                            </connections>
+                                        </button>
+                                        <button toolTip="Lock/Unlock the ADR Lab" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bcx-sf-lNr">
+                                            <rect key="frame" x="52" y="259" width="94" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="push" title="ADR Lab" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="sxl-8Y-XBp">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="lockADR:" target="494" id="0yS-rn-saW"/>
+                                            </connections>
+                                        </button>
+                                        <button toolTip="Lock/Unlock the Vocal Booth" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hup-PE-K6I">
+                                            <rect key="frame" x="52" y="332" width="115" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="push" title="Vocal Booth" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="fJE-cd-T1R">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="lockVocal:" target="494" id="aUk-mk-jJX"/>
+                                            </connections>
+                                        </button>
+                                        <button toolTip="Lock/Unlock the Iso Booth" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y4f-31-Tz1">
+                                            <rect key="frame" x="52" y="398" width="99" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="push" title="Iso Booth" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="DdB-IO-UlQ">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="lockStudioBooth:" target="494" id="Vfa-zx-thm"/>
+                                            </connections>
+                                        </button>
+                                        <button toolTip="Lock/Unlock the Studio" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sXy-Nj-kxZ">
+                                            <rect key="frame" x="52" y="431" width="118" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="push" title="Studio (712)" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="S8h-rm-ipf">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="lockStudio:" target="494" id="VYg-7t-Tsy"/>
+                                            </connections>
+                                        </button>
+                                        <button toolTip="Lock/Unlock the Foley Live Room" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yfh-c6-XBJ">
+                                            <rect key="frame" x="52" y="147" width="105" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="push" title="Live Room" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="IO4-PY-j2f">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="lockFoleyLive:" target="494" id="jf7-Hw-SJT"/>
+                                            </connections>
+                                        </button>
+                                        <button toolTip="Lock/Unlock the Foley Control Room" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eZW-oM-bp0">
+                                            <rect key="frame" x="53" y="180" width="128" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="push" title="Control Room" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="4Jl-Y5-wQm">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="lockFoleyCTRL:" target="494" id="b4D-1v-qBk"/>
+                                            </connections>
+                                        </button>
+                                        <button toolTip="Lock/Unlock the Practice Rooms" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DAl-VJ-1Nl">
+                                            <rect key="frame" x="53" y="84" width="136" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="push" title="Practice Rooms" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="7Pz-7G-2L1">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="lockPractice:" target="494" id="flT-ba-vNR"/>
+                                            </connections>
+                                        </button>
+                                        <button toolTip="Lock/Unlock the Right Piano Room" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sfh-TF-1rh">
+                                            <rect key="frame" x="53" y="4" width="102" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="push" title="Right Piano" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gTA-Gn-azZ">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="lockPracticeR:" target="494" id="Gs2-1X-aOT"/>
+                                            </connections>
+                                        </button>
+                                        <button toolTip="Lock/Unlock the Left Piano Room" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zsB-qA-3tT">
+                                            <rect key="frame" x="53" y="45" width="102" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="push" title="Left Piano" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bAu-sA-5m9">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="lockPracticeL:" target="494" id="KVu-r0-kmS"/>
+                                            </connections>
+                                        </button>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XHh-Sd-opB">
+                                            <rect key="frame" x="478" y="-1" width="252" height="17"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Click Lab name to toggle Locked Status" id="vZ9-Tm-0mn">
+                                                <font key="font" metaFont="smallSystem"/>
+                                                <color key="textColor" red="0.0" green="0.61839758830000002" blue="0.0036909622670000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <button toolTip="Toggle on to prevent editing of Name Entry fields" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xEb-Xn-fR6">
+                                            <rect key="frame" x="613" y="21" width="64" height="64"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="pencil2" imagePosition="only" alignment="center" alternateImage="forbid" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="bm6-Q8-BtL">
+                                                <behavior key="behavior" pushIn="YES" changeContents="YES" lightByContents="YES"/>
+                                                <font key="font" metaFont="system" size="10"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="fieldLock:" target="494" id="eyb-mO-OSk"/>
+                                            </connections>
+                                        </button>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6wk-IQ-B9f">
+                                            <rect key="frame" x="601" y="91" width="114" height="17"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Lock Name Fields" id="YFS-Mj-yz3">
+                                                <font key="font" metaFont="label"/>
+                                                <color key="textColor" red="0.0" green="0.70121433420000001" blue="0.0041852615500000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="weE-C0-HLq" userLabel="imageLock712">
+                                            <rect key="frame" x="372" y="416" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="E33-M2-8rz"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TQN-bL-IA5" userLabel="imageUnlock">
+                                            <rect key="frame" x="366" y="417" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="PfL-tc-LVC"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tUz-5O-jc1" userLabel="imageLock712">
+                                            <rect key="frame" x="8" y="428" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="vfa-ej-veV"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="es5-Te-qiS" userLabel="imageUnlock">
+                                            <rect key="frame" x="2" y="429" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="k83-XP-wMw"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="721-kT-iQ3" userLabel="imageLock712">
+                                            <rect key="frame" x="8" y="394" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="1Zf-Mh-UWB"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C8S-KD-SeS" userLabel="imageUnlock">
+                                            <rect key="frame" x="2" y="395" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="QOQ-JX-vHN"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fM6-Ks-SIR" userLabel="imageLock712">
+                                            <rect key="frame" x="8" y="394" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="0IG-Dc-TN7"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ihk-jQ-RER" userLabel="imageUnlock">
+                                            <rect key="frame" x="2" y="395" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="9LQ-NV-Yoz"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CrV-mC-bDH" userLabel="imageLock712">
+                                            <rect key="frame" x="8" y="328" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="fnM-f2-w51"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lZ4-Of-IOQ" userLabel="imageUnlock">
+                                            <rect key="frame" x="2" y="329" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="MI0-Du-83B"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cmD-oa-SIs" userLabel="imageLock712">
+                                            <rect key="frame" x="8" y="328" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="qtt-E2-nyd"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AKa-03-YQr" userLabel="imageUnlock">
+                                            <rect key="frame" x="2" y="329" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="c2f-bA-UoZ"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QOS-Zt-gSS" userLabel="imageLock712">
+                                            <rect key="frame" x="8" y="255" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="6dq-gk-jYb"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6oL-BB-qlu" userLabel="imageUnlock">
+                                            <rect key="frame" x="2" y="256" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="pJG-SG-Jb3"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="btD-0d-bxa" userLabel="imageLock712">
+                                            <rect key="frame" x="8" y="255" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="FHn-Jv-KyL"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BWa-Xa-F0e" userLabel="imageUnlock">
+                                            <rect key="frame" x="2" y="256" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="M2R-fV-hMh"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iio-Ou-fau" userLabel="imageLock712">
+                                            <rect key="frame" x="8" y="176" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="o9D-eQ-vjX"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w91-7p-Mrk" userLabel="imageUnlock">
+                                            <rect key="frame" x="2" y="177" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="pvA-gQ-t5s"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QJp-XG-vMk" userLabel="imageLock712">
+                                            <rect key="frame" x="8" y="176" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="GxC-IN-RVZ"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gku-Bd-fcC" userLabel="imageUnlock">
+                                            <rect key="frame" x="2" y="177" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="mhy-nN-b6K"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d7a-qA-7kq" userLabel="imageLock712">
+                                            <rect key="frame" x="8" y="143" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="ZQO-58-4Ol"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fle-eY-8pm" userLabel="imageUnlock">
+                                            <rect key="frame" x="2" y="144" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="iPJ-Nb-dlc"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n48-Y4-AIU" userLabel="imageLock712">
+                                            <rect key="frame" x="8" y="143" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="J9m-6G-SmC"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pcJ-cX-cwk" userLabel="imageUnlock">
+                                            <rect key="frame" x="2" y="144" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="Grz-KL-t1V"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eax-ax-4ka" userLabel="imageLock712">
+                                            <rect key="frame" x="8" y="78" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="ZfD-Jp-Fa0"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GFO-Ea-I6R" userLabel="imageUnlock">
+                                            <rect key="frame" x="2" y="79" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="fu6-Nl-9yJ"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hRX-8v-9Om" userLabel="imageLock712">
+                                            <rect key="frame" x="8" y="78" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="0jN-OB-A4D"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HBE-du-Z0e" userLabel="imageUnlock">
+                                            <rect key="frame" x="2" y="79" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="RGF-ad-Ihn"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uEu-bM-8S4" userLabel="imageLock712">
+                                            <rect key="frame" x="8" y="41" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="Hky-KF-AGa"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MLg-S5-ycx" userLabel="imageUnlock">
+                                            <rect key="frame" x="2" y="42" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="WAi-Uh-yOC"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tpG-JA-kaQ" userLabel="imageLock712">
+                                            <rect key="frame" x="8" y="41" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="LeR-N8-hnb"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IvJ-gw-uMm" userLabel="imageUnlock">
+                                            <rect key="frame" x="2" y="42" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="w2W-Gn-caz"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Jh-6O-lCl" userLabel="imageLock712">
+                                            <rect key="frame" x="11" y="0.0" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="7a9-Ma-81h"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uo9-BR-KUr" userLabel="imageUnlock">
+                                            <rect key="frame" x="5" y="1" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="JX3-d7-lTR"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sIk-MU-cxU" userLabel="imageLock712">
+                                            <rect key="frame" x="11" y="0.0" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="CsV-ec-F36"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wf4-4V-L1l" userLabel="imageUnlock">
+                                            <rect key="frame" x="5" y="1" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="vWq-Nz-CZa"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S9e-Xi-QN2" userLabel="imageLock712">
+                                            <rect key="frame" x="375" y="318" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="Fb3-br-KEf"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JoK-d2-Fzd" userLabel="imageUnlock">
+                                            <rect key="frame" x="369" y="319" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="3je-HM-Y6i"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="taQ-kg-W5D" userLabel="imageLock712">
+                                            <rect key="frame" x="372" y="350" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="SXu-ju-vqE"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iWs-a5-rLu" userLabel="imageUnlock">
+                                            <rect key="frame" x="366" y="351" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="MuU-gA-Z0f"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1dz-Vf-Qju" userLabel="imageLock712">
+                                            <rect key="frame" x="375" y="244" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="kyP-Ki-ZGS"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RfN-fc-iee" userLabel="imageUnlock">
+                                            <rect key="frame" x="369" y="245" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="GDX-UR-zFe"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LR2-Dv-6zA" userLabel="imageLock712">
+                                            <rect key="frame" x="375" y="204" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="cQV-MV-PeJ"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rjm-tP-si7" userLabel="imageUnlock">
+                                            <rect key="frame" x="369" y="205" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="tdc-NX-aHZ"/>
+                                        </imageView>
+                                        <imageView identifier="imageLock" toolTip="Room is Locked" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q6I-HQ-qgG" userLabel="imageLock712">
+                                            <rect key="frame" x="375" y="165" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="RUt-mv-voH"/>
+                                            <accessibility description="imageLock" help="imageLock"/>
+                                        </imageView>
+                                        <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2l0-NV-2iq" userLabel="imageUnlock">
+                                            <rect key="frame" x="369" y="166" width="42" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="unlock" id="Cxi-Ld-T2u"/>
+                                        </imageView>
+                                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QPx-01-2me">
+                                            <rect key="frame" x="649" y="460" width="60" height="56"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="test" id="fqj-yB-GPi"/>
+                                        </imageView>
+                                        <button horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t2C-nC-m5b">
+                                            <rect key="frame" x="695" y="-2" width="25" height="25"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="VbA-eR-f0X">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="makeKeyAndOrderFront:" target="yz5-WT-AVr" id="ah3-oq-3GM"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </view>
+                            </tabViewItem>
+                            <tabViewItem label="Clients" identifier="2" id="9ba-pW-EGY">
+                                <view key="view" id="mIX-xa-b7a">
+                                    <rect key="frame" x="10" y="33" width="726" height="519"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6PS-G8-InV">
+                                            <rect key="frame" x="15" y="467" width="125" height="17"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Checked-In Clients" id="LaY-3G-AVX">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Flz-Zu-8cM">
+                                            <rect key="frame" x="67" y="428" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="G7k-0v-DGY">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h8e-d1-dbV">
+                                            <rect key="frame" x="392" y="428" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="W6J-P0-Mfe">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eY0-xd-oKW">
+                                            <rect key="frame" x="67" y="396" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="PRC-ev-st5">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2nJ-v1-Yoh">
+                                            <rect key="frame" x="392" y="396" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="8VU-Wb-Y6P">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nHc-0z-oR5">
+                                            <rect key="frame" x="67" y="364" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="mFi-pU-rAO">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6k7-ZD-TXa">
+                                            <rect key="frame" x="392" y="364" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="Wvb-pc-tSI">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vhB-tO-cIO">
+                                            <rect key="frame" x="67" y="332" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="jgg-ol-ufi">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ynI-yr-EwO">
+                                            <rect key="frame" x="392" y="332" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="IZ3-7W-vsF">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LeK-AO-r5u">
+                                            <rect key="frame" x="67" y="300" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="EAL-hF-7ht">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dvk-AO-fVh">
+                                            <rect key="frame" x="392" y="300" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="ZVU-iN-Vrm">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="26U-pQ-Fv5">
+                                            <rect key="frame" x="67" y="268" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="jEr-hh-FT2">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bWU-bm-M3s">
+                                            <rect key="frame" x="392" y="268" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="dd5-N8-8bQ">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j0m-cX-EYE">
+                                            <rect key="frame" x="67" y="236" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="eIn-a5-xVH">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CUw-qY-ASa">
+                                            <rect key="frame" x="392" y="236" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="11D-pN-qse">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BWY-em-8Qf">
+                                            <rect key="frame" x="67" y="204" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="uPD-EC-DQR">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xns-fp-ESS">
+                                            <rect key="frame" x="392" y="204" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="nab-P0-lxt">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P9f-EC-Qcs">
+                                            <rect key="frame" x="67" y="172" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="fZH-M9-PaO">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fw3-Pl-HtA">
+                                            <rect key="frame" x="392" y="172" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="zso-uA-Uiq">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xbk-vz-fxB">
+                                            <rect key="frame" x="67" y="140" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="Kq7-Lu-Cx3">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z3P-c0-faA">
+                                            <rect key="frame" x="392" y="140" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="gfv-bz-f1E">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WTg-pc-Zwm">
+                                            <rect key="frame" x="67" y="108" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="NXP-u6-fhN">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UaY-UX-Zpn">
+                                            <rect key="frame" x="392" y="108" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="AnZ-15-GPL">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UpM-Xk-ikf">
+                                            <rect key="frame" x="67" y="76" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="THd-dC-i6R">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NAb-rD-uXM">
+                                            <rect key="frame" x="392" y="76" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="X0r-ZT-nfa">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fq7-hV-lNg">
+                                            <rect key="frame" x="67" y="44" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="NrP-ZZ-FP2">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8bt-eM-qIY">
+                                            <rect key="frame" x="392" y="44" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="pny-BZ-ahG">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mql-a4-hJf">
+                                            <rect key="frame" x="67" y="12" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="qnA-ec-cn2">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GXa-cZ-sMA">
+                                            <rect key="frame" x="392" y="12" width="246" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="ITN-fT-Sqh">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oKi-vN-akU">
+                                            <rect key="frame" x="363" y="467" width="75" height="17"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Labs In Use" id="fD9-Hi-N02">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pbc-yR-aky">
+                                            <rect key="frame" x="655" y="462" width="54" height="54"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="person" id="V72-gS-uDI"/>
+                                        </imageView>
+                                        <button horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AWB-JU-rap">
+                                            <rect key="frame" x="695" y="-1" width="25" height="25"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="FBq-0m-t9e">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="makeKeyAndOrderFront:" target="yz5-WT-AVr" id="GzT-r4-2TV"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </view>
+                            </tabViewItem>
+                            <tabViewItem label="Stethoscope" identifier="2" id="Is8-k1-IEx">
+                                <view key="view" ambiguous="YES" id="KJo-oW-3Ls" userLabel="Stethoscope">
+                                    <rect key="frame" x="10" y="33" width="726" height="519"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9g5-Tv-pzX">
+                                            <rect key="frame" x="686" y="14" width="25" height="25"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="dlm-5P-RcY">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="makeKeyAndOrderFront:" target="yz5-WT-AVr" id="v82-3F-XIk"/>
+                                            </connections>
+                                        </button>
+                                        <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aRu-pP-1Nq">
+                                            <rect key="frame" x="17" y="457" width="60" height="59"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="heart" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="Xyv-Hy-OES">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system" size="10"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="refreshHeartbeat:" target="494" id="UI4-OJ-S5x"/>
+                                            </connections>
+                                        </button>
+                                        <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mer-Ne-64g">
+                                            <rect key="frame" x="17" y="390" width="60" height="59"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="ekg" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="Ff4-Ei-Jr3">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system" size="10"/>
+                                            </buttonCell>
+                                        </button>
+                                        <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nhm-8n-nSJ">
+                                            <rect key="frame" x="17" y="323" width="60" height="59"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="xray" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="2YR-u1-cZ3">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system" size="10"/>
+                                            </buttonCell>
+                                        </button>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tbZ-d2-3ir">
+                                            <rect key="frame" x="85" y="344" width="207" height="17"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Show Connected Clients/Servers" id="vLf-hy-eCE">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="54E-yM-34p">
+                                            <rect key="frame" x="85" y="411" width="121" height="17"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Emergency Restart" id="Xcd-TU-Goe">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6UE-2d-4iD">
+                                            <rect key="frame" x="85" y="478" width="129" height="17"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Listen for Heartbeat" id="kct-5e-oe6">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <progressIndicator horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="p06-tw-0d6">
+                                            <rect key="frame" x="226" y="478" width="16" height="16"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        </progressIndicator>
+                                        <progressIndicator horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="0Pj-Uc-Bdn">
+                                            <rect key="frame" x="212" y="411" width="16" height="16"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        </progressIndicator>
+                                        <progressIndicator horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="g9x-ql-y16">
+                                            <rect key="frame" x="298" y="344" width="16" height="16"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        </progressIndicator>
+                                        <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CKz-a3-Ghw">
+                                            <rect key="frame" x="17" y="17" width="643" height="266"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <subviews>
+                                                <levelIndicator verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CIi-Df-KBQ">
+                                                    <rect key="frame" x="156" y="228" width="451" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                    <levelIndicatorCell key="cell" alignment="left" doubleValue="1" maxValue="12" warningValue="6" criticalValue="10" id="cEE-Rh-Ooe"/>
+                                                </levelIndicator>
+                                            </subviews>
+                                        </customView>
+                                        <box autoresizesSubviews="NO" verticalHuggingPriority="750" fixedFrame="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="eUP-K6-FVO">
+                                            <rect key="frame" x="17" y="446" width="260" height="5"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                                            <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <font key="titleFont" metaFont="system"/>
+                                        </box>
+                                        <box autoresizesSubviews="NO" verticalHuggingPriority="750" fixedFrame="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="PmX-tv-fmn">
+                                            <rect key="frame" x="17" y="382" width="297" height="5"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                                            <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <font key="titleFont" metaFont="system"/>
+                                        </box>
+                                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hG9-jA-K8d">
+                                            <rect key="frame" x="655" y="462" width="54" height="54"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Stethoscope" id="VU1-UM-opM"/>
+                                        </imageView>
+                                    </subviews>
+                                </view>
+                            </tabViewItem>
+                            <tabViewItem label="Heartbeat" identifier="2" id="BE4-hw-7Yh">
+                                <view key="view" id="6pr-G7-fi0">
+                                    <rect key="frame" x="10" y="33" width="726" height="519"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TXb-iY-79l">
+                                            <rect key="frame" x="655" y="462" width="54" height="54"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="heart" id="uar-Fn-8ly"/>
+                                        </imageView>
+                                        <button horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ps7-f5-LMx">
+                                            <rect key="frame" x="681" y="15" width="25" height="25"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="LFi-v6-HuR">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="makeKeyAndOrderFront:" target="yz5-WT-AVr" id="HfQ-Yy-IYV"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </view>
+                            </tabViewItem>
+                        </tabViewItems>
+                    </tabView>
                 </subviews>
             </view>
-            <toolbar key="toolbar" implicitIdentifier="53AE1111-C12E-41F6-B7C3-E584A4ED9F1C" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="bk5-Ua-S3f">
-                <allowedToolbarItems>
-                    <toolbarItem implicitItemIdentifier="509876C5-C25D-4E4F-80EE-7B11D3EDF8DE" explicitItemIdentifier="toolbarLabs" label="Labs" paletteLabel="Labs" toolTip="Show the Laboratory List" tag="-1" image="test" id="eCO-p6-Lm6"/>
-                    <toolbarItem implicitItemIdentifier="1C76268A-D6CF-446B-A46C-1CD46F0CBAC8" explicitItemIdentifier="toolbarHeartbeat" label="Heartbeat Server" paletteLabel="Heartbeat Server" toolTip="Open the &quot;Heartbeat&quot; server control panel" tag="-1" image="heart" id="xpG-3m-kkb"/>
-                    <toolbarItem implicitItemIdentifier="9179F4A3-57F9-4580-9E7F-F0106DC9A175" explicitItemIdentifier="toolbarInfo" label="About" paletteLabel="About" toolTip="Show 'Open Lab' Developer Info" tag="-1" image="info" id="pbQ-zR-g2L">
-                        <connections>
-                            <action selector="makeKeyAndOrderFront:" target="yz5-WT-AVr" id="t5X-ZE-CD3"/>
-                        </connections>
-                    </toolbarItem>
-                    <toolbarItem implicitItemIdentifier="2476180E-9B03-4734-8D49-38AEB0D7942D" explicitItemIdentifier="toolbarClients" label="Clients" paletteLabel="Clients" toolTip="Show the Clients List" tag="-1" image="person" id="8mr-Za-XBh"/>
-                    <toolbarItem implicitItemIdentifier="NSToolbarSeparatorItem" id="bon-iD-vqZ"/>
-                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="JsL-n1-xNV"/>
-                </allowedToolbarItems>
-                <defaultToolbarItems>
-                    <toolbarItem reference="eCO-p6-Lm6"/>
-                    <toolbarItem reference="8mr-Za-XBh"/>
-                    <toolbarItem reference="JsL-n1-xNV"/>
-                    <toolbarItem reference="bon-iD-vqZ"/>
-                    <toolbarItem reference="xpG-3m-kkb"/>
-                    <toolbarItem reference="pbQ-zR-g2L"/>
-                </defaultToolbarItems>
-            </toolbar>
         </window>
     </objects>
     <resources>
+        <image name="Stethoscope" width="32" height="32"/>
         <image name="bitcoin" width="128" height="128"/>
+        <image name="ekg" width="128" height="128"/>
         <image name="forbid" width="32" height="32"/>
         <image name="heart" width="117.36000061035156" height="99.839996337890625"/>
-        <image name="info" width="32" height="32"/>
         <image name="lock" width="32" height="32"/>
         <image name="paypal" width="128" height="128"/>
         <image name="pencil2" width="32" height="32"/>
@@ -708,5 +1113,6 @@
         <image name="shop" width="128" height="128"/>
         <image name="test" width="32" height="32"/>
         <image name="unlock" width="38" height="28"/>
+        <image name="xray" width="128" height="128"/>
     </resources>
 </document>
