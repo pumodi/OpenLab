@@ -24,6 +24,7 @@
 		416F3784182A16920037FBBA /* Open_LabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 416F3783182A16920037FBBA /* Open_LabTests.m */; };
 		416F378D182A1B640037FBBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416F3771182A16910037FBBA /* Images.xcassets */; };
 		416F378F182A1C940037FBBA /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = 416F378E182A1C940037FBBA /* person.png */; };
+		4171C5AB1845D73800EC110C /* stethoscope.m in Sources */ = {isa = PBXBuildFile; fileRef = 4171C5AA1845D73800EC110C /* stethoscope.m */; };
 		417D78661830D75C00913A4E /* gauge.png in Resources */ = {isa = PBXBuildFile; fileRef = 417D78651830D75C00913A4E /* gauge.png */; };
 		417D78681830D97000913A4E /* Stethoscope.png in Resources */ = {isa = PBXBuildFile; fileRef = 417D78671830D97000913A4E /* Stethoscope.png */; };
 		41F14A04182F7AB800FEE636 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416F375E182A16910037FBBA /* Foundation.framework */; };
@@ -73,6 +74,8 @@
 		416F3783182A16920037FBBA /* Open_LabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Open_LabTests.m; sourceTree = "<group>"; };
 		416F378E182A1C940037FBBA /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person.png; sourceTree = "<group>"; };
 		416F3790182A23BF0037FBBA /* Open Lab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Open Lab.entitlements"; sourceTree = "<group>"; };
+		4171C5A91845D73800EC110C /* stethoscope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stethoscope.h; sourceTree = "<group>"; };
+		4171C5AA1845D73800EC110C /* stethoscope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stethoscope.m; sourceTree = "<group>"; };
 		417D78651830D75C00913A4E /* gauge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge.png; sourceTree = "<group>"; };
 		417D78671830D97000913A4E /* Stethoscope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stethoscope.png; sourceTree = "<group>"; };
 		41FE8374182E05B20000885D /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
@@ -155,6 +158,8 @@
 				416F376E182A16910037FBBA /* MainMenu.xib */,
 				416F3771182A16910037FBBA /* Images.xcassets */,
 				416F3760182A16910037FBBA /* Supporting Files */,
+				4171C5A91845D73800EC110C /* stethoscope.h */,
+				4171C5AA1845D73800EC110C /* stethoscope.m */,
 			);
 			path = "Open Lab";
 			sourceTree = "<group>";
@@ -327,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				416F376D182A16910037FBBA /* AppDelegate.m in Sources */,
+				4171C5AB1845D73800EC110C /* stethoscope.m in Sources */,
 				416F3766182A16910037FBBA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
